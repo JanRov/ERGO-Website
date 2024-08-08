@@ -1,0 +1,178 @@
+@font-face {
+    font-family: RussoOne;
+    src: url(../assets/Russo_One/RussoOne-Regular.ttf);
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+
+body {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../assets/pexels-guiirossi-1668928.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+/*nav*/
+nav {
+  background-color: black;
+  height: 73px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#rightContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+#search{
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 318px;
+    height: 49px;
+    color:black;
+}
+
+
+
+/*nav end*/
+
+
+
+#content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+}
+
+
+/*hero */
+
+#hero {
+  background-color: black;
+  height: 835px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#heroText {
+  width: 35%;
+  padding: 40px;
+
+}
+#heroSlides {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+    font-family: RussoOne;
+    font-size: 42px;
+}
+
+#start{
+    background-color: #25AAE1;
+    color: white;
+    width: 353px;
+    height: 46px;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-kerning: 20%;
+    font-size: 24px;
+}
+#start:hover{
+    border: 5px white solid;
+}
+
+/*heroEND */
+
+/*whatIs*/
+#whatIs {
+  background-color: #202020;
+  z-index: +5;
+  width: 70%;
+  height: 411px;
+  top: -50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 10px #444444;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+#whatIsImg{
+    width: 30%;
+    height: 95%;
+    border-radius: 25px 0 0 25px;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+}
+
+#whatIsText{
+    display: inherit;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 567px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+#bluebar{
+    position: absolute;
+    z-index: +5;
+    top: 320px;
+    left: 337px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #8BF6FE;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 25px 0 0 25px;
+    width: 700px;
+}
+
+
+
+
+/*whatIs end*/
+
+#flavors {
+  width: 100%;
+}
+#flavorBack {
+  background-color: black;
+  position: relative;
+  height: 158px;
+  width: 100%;
+  margin-top: 289px;
+}
